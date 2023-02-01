@@ -50,9 +50,9 @@ const Create = () => {
         {!isPending && <button>Add Blog</button>}
         {isPending && <button disabled>Adding blog</button>}
 
-        {/* <p>{title}</p>
+        <p>{title}</p>
         <p>{body}</p>
-        <p>{author}</p> */}
+        <p>{author}</p>
       </form>
     </div>
   );
